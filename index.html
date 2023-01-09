@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Keys</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="app-content">
+        <!-- Top row -->
+        <div id="top-row">
+          <a href="#" class="btn small" id="fourth-btn">&lt;&lt; 4th</a>
+          <h1 id="main-text">C Major</h1>
+          <a href="#" class="btn small" id="fifth-btn">5th &gt;&gt;</a>
+        </div>
+
+        <!-- Middle Section -->
+
+        <div id="notes-display">
+          <ul id="notes-list">
+            <li class="display-card" id="note">C</li>
+            <li class="display-card" id="note">D</li>
+            <li class="display-card" id="note">E</li>
+            <li class="display-card" id="note">F</li>
+            <li class="display-card" id="note">G</li>
+            <li class="display-card" id="note">A</li>
+            <li class="display-card" id="note">B</li>
+          </ul>
+        </div>
+        <h2 id="section-title">Chords</h2>
+
+        <div id="middle-row">
+          <ul id="chord-list">
+            <ul id="chord">
+              <li class="display-card" id="chord-note-quality"></li>
+              <li class="display-card"></li>
+              <li class="display-card"></li>
+              <li class="display-card"></li>
+              <li class="display-card hidden"></li>
+            </ul>
+            <ul id="chord">
+              <li class="display-card" id="chord-note-quality"></li>
+              <li class="display-card"></li>
+              <li class="display-card"></li>
+              <li class="display-card"></li>
+              <li class="display-card hidden"></li>
+            </ul>
+            <ul id="chord">
+              <li class="display-card" id="chord-note-quality"></li>
+              <li class="display-card"></li>
+              <li class="display-card"></li>
+              <li class="display-card"></li>
+              <li class="display-card hidden"></li>
+            </ul>
+            <ul id="chord">
+              <li class="display-card" id="chord-note-quality"></li>
+              <li class="display-card"></li>
+              <li class="display-card"></li>
+              <li class="display-card"></li>
+              <li class="display-card hidden"></li>
+            </ul>
+            <ul id="chord">
+              <li class="display-card" id="chord-note-quality"></li>
+              <li class="display-card"></li>
+              <li class="display-card"></li>
+              <li class="display-card"></li>
+              <li class="display-card hidden"></li>
+            </ul>
+            <ul id="chord">
+              <li class="display-card" id="chord-note-quality"></li>
+              <li class="display-card"></li>
+              <li class="display-card"></li>
+              <li class="display-card"></li>
+              <li class="display-card hidden"></li>
+            </ul>
+            <ul id="chord">
+              <li class="display-card" id="chord-note-quality"></li>
+              <li class="display-card"></li>
+              <li class="display-card"></li>
+              <li class="display-card"></li>
+              <li class="display-card hidden"></li>
+            </ul>
+          </ul>
+        </div>
+
+        <!-- Bottom Row -->
+        <div id="bottom-row-menu">
+          <a href="#" class="btn-menu btn" id="note-choice">C</a>
+          <a href="#" class="btn-menu btn hidden" id="sharp-flat-natural">#</a>
+          <div id="maj-min-btn">
+            <a href="#" id="maj-min-btn" class="btn-menu btn hidden">Major</a>
+            <a href="#" id="maj-min-btn" class="btn-menu btn hidden">Minor</a>
+          </div>
+          <a href="#" class="btn" id="relative-btn">Relative Key</a>
+          <a href="#" class="btn" id="parallel-btn">Parallel Key</a>
+          <div id="relative-btn" class="btn-menu"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="keyClass.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
